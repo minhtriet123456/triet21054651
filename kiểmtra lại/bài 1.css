@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Varela+Round&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: "Varela Round", sans-serif;
+}
+body{
+    background: #F5F6CE;
+}
+.containerall{
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #F3F781;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container{
+    width:980px;
+    margin: 0 auto;
+
+}
+.image-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  padding-top: 20px;
+  text-align:justify;
+}
+header{
+    height: 100px;
+    background: orange;
+}
+header img {
+    padding-left: 30px;
+}
+nav{
+    height: 35px;
+    background: #F7FE2E;
+    margin-bottom: 10px;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float:left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color:BLACK;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Main content sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m háº¿t khÃ´ng gian cÃ²n láº¡i */
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 4; /* Má»—i cá»™t sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m má»™t pháº§n cá»§a main content */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:justify;
+}
+.right-column {
+    flex: 2; /* Má»—i cá»™t sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m má»™t pháº§n cá»§a main content */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align:center;
+    height:min-content;
+}
+.right-column a {
+    text-decoration: none;
+    display:block;
+}
+
+.left-column div, .right-column div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    flex: 1; /* Má»—i khung sáº½ má»Ÿ rá»™ng Ä‘á»ƒ chiáº¿m pháº§n cá»§a cá»™t */
+}
+.icon .fa {
+    font-size: 32px;
+    color: black;
+}
+
+
+.footer {
+
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+
+/* Phần tử con trong footer */
+.footer-menu {
+  margin: 10px 0; /* Thêm một khoảng cách giữa các phần tử p */
+}
+
+.footer-menu {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+
+
+/* Thiết kế cho danh mục */
+.footer-menu {
+  list-style: none; /* Xóa dấu đầu dòng cho danh sách */
+  padding: 0; /* Xóa padding mặc định của danh sách */
+}
+
+.footer-menu li {
+  display: inline-block; /* Hiển thị các mục danh sách trên cùng một dòng */
+  margin: 0 10px; /* Khoảng cách giữa các mục danh sách */
+}
+  table{
+    width:100%;
+    height:100px;
+    border:0;
+    top: 0px;
+  }
+  .text-animation {
+    font-size: 70px;
+  }
+  .image {
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+
+  .image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+    
+    
+    
